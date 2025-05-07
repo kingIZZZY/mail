@@ -27,14 +27,14 @@
     },
     "require": {
         "php": "^8.2",
-        "hyperf/collection": "~3.1.0",
-        "hyperf/conditionable": "~3.1.0",
-        "hyperf/stringable": "~3.1.0",
-        "hyperf/macroable": "~3.1.0",
-        "hyperf/di": "~3.1.0",
-        "hypervel/support": "^0.1",
-        "hypervel/filesystem": "^0.1",
-        "hypervel/object-pool": "^0.1",
+        "hyperf/collection": "3.2.x-dev",
+        "hyperf/conditionable": "3.2.x-dev",
+        "hyperf/stringable": "3.2.x-dev",
+        "hyperf/macroable": "3.2.x-dev",
+        "hyperf/di": "3.2.x-dev",
+        "hypervel/support": "dev-edge-hyperf3.2",
+        "hypervel/filesystem": "dev-edge-hyperf3.2",
+        "hypervel/object-pool": "dev-edge-hyperf3.2",
         "league/commonmark": "^2.2",
         "psr/log": "^1.0|^2.0|^3.0",
         "symfony/mailer": "^6.2",
@@ -56,5 +56,19 @@
         "symfony/http-client": "Required to use the Symfony API mail transports (^6.2).",
         "symfony/mailgun-mailer": "Required to enable support for the Mailgun mail transport (^6.2).",
         "symfony/postmark-mailer": "Required to enable support for the Postmark mail transport (^6.2)."
-    }
+    },
+    "repositories": [
+        {
+            "type": "github",
+            "url": "https://github.com/kingIZZZY/support"
+        },
+        {
+            "type": "github",
+            "url": "https://github.com/kingIZZZY/filesystem"
+        },
+        {
+            "type": "github",
+            "url": "https://github.com/kingIZZZY/object-pool"
+        }
+    ]
 }
