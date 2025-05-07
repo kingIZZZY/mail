@@ -70,6 +70,10 @@
         {
             "type": "github",
             "url": "https://github.com/kingIZZZY/object-pool"
+        },
+        {
+            "type": "github",
+            "url": "https://github.com/kingIZZZY/translation"
         }
     ]
 }
