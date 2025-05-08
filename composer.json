@@ -35,7 +35,7 @@
         "hypervel/support": "dev-edge-hyperf3.2",
         "hypervel/filesystem": "dev-edge-hyperf3.2",
         "hypervel/object-pool": "dev-edge-hyperf3.2",
-        "hypervel/translation": "^0.1",
+        "hypervel/translation": "dev-edge-hyperf3.2",
         "league/commonmark": "^2.2",
         "psr/log": "^1.0|^2.0|^3.0",
         "symfony/mailer": "^6.2",
